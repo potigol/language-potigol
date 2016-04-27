@@ -1,0 +1,50 @@
+'scopeName': 'source.potigol'
+'name': 'Potigol'
+'fileTypes': ['poti']
+
+'patterns': [
+    {
+        'begin': '#'
+        'end': '\\n'
+        'name': 'comment.line.double-dash.potigol'
+    }
+    {
+        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|de|até|ate|faça|faca|enquanto|var|passo)\\b'
+        'name': 'keyword.control.potigol'
+    }
+    {
+        'match': '\\b(leia_texto|leia_numero|leia_inteiro|leia_inteiros|inteiro|arredonde|texto|formato|real|tamanho|posição|posicao|contém|contem|maiúsculo|maiusculo|minúsculo|minusculo|inverta|divida|cabeça|cabeca|cauda|último|ultimo|pegue|descarte|selecione|descarte_enquanto|pegue_enquanto|ordene|junte|remova|insira|imutável|imutavel|mutável|mutavel|mapeie|injete|PI|sen|cos|tg|arcsen|arccos|arctg|abs|raiz|log|log10)\\b'
+        'name': 'support.function.potigol'
+    }
+    {
+        'begin': '"'
+        'beginCaptures':
+            '0':
+                'name': 'punctuation.definition.string.begin.potigol'
+        'end': '"'
+        'endCaptures':
+            '0':
+                'name': 'punctuation.definition.string.end.potigol'
+        'name': 'string.quoted.double.potigol'
+    }
+    {
+        'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((E|e)(\\+|-)?[0-9]+)?\\b'
+        'name': 'constant.numeric.potigol'
+    }
+    {
+        'match': '\\+|\\-|\\*|/|mod|div'
+        'name': 'keyword.operator.arithmetic.potigol'
+    }
+    {
+        'match': '\\=|\\:='
+        'name': 'keyword.operator.assignment.potigol'
+    }
+    {
+        'match': '\\b(e|ou)\\b'
+        'name': 'keyword.operator.logical.potigol'
+    }
+    {
+        'match': '<\\=|>\\=|\\=\\=|<|>|\\<\\>'
+        'name': 'keyword.operator.comparison.potigol'
+    }
+]
