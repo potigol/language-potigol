@@ -9,11 +9,11 @@
         'name': 'comment.line.double-dash.potigol'
     }
     {
-        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|de|até|ate|faça|faca|enquanto|var|passo)\\b'
+        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|de|até|ate|faça|faca|enquanto|var|passo|gere)\\b'
         'name': 'keyword.control.potigol'
     }
     {
-        'match': '\\b(leia_texto|leia_numero|leia_inteiro|leia_inteiros|inteiro|arredonde|texto|formato|real|tamanho|posição|posicao|contém|contem|maiúsculo|maiusculo|minúsculo|minusculo|inverta|divida|cabeça|cabeca|cauda|último|ultimo|pegue|descarte|selecione|descarte_enquanto|pegue_enquanto|ordene|junte|remova|insira|imutável|imutavel|mutável|mutavel|mapeie|injete|PI|sen|cos|tg|arcsen|arccos|arctg|abs|raiz|log|log10)\\b'
+        'match': '\\b(leia_texto|leia_numero|leia_inteiro|leia_inteiros|inteiro|arredonde|texto|formato|real|tamanho|posição|posicao|posiçao|posicão|contém|contem|maiúsculo|maiusculo|minúsculo|minusculo|inverta|divida|cabeça|cabeca|cauda|último|ultimo|pegue|descarte|selecione|descarte_enquanto|pegue_enquanto|ordene|junte|remova|insira|imutável|imutavel|mutável|mutavel|mapeie|injete|PI|sen|cos|tg|arcsen|arccos|arctg|abs|raiz|log|log10)\\b'
         'name': 'support.function.potigol'
     }
     {
@@ -40,11 +40,48 @@
         'name': 'keyword.operator.assignment.potigol'
     }
     {
-        'match': '\\b(e|ou)\\b'
+        'match': '\\b(e|ou|nao|não)\\b'
         'name': 'keyword.operator.logical.potigol'
     }
     {
         'match': '<\\=|>\\=|\\=\\=|<|>|\\<\\>'
         'name': 'keyword.operator.comparison.potigol'
     }
+    {
+        'match': '\\b(falso|verdadeiro)\\b'
+        'name': 'constant.language.potigol'
+    }
+    {
+        'match': '\\b(Inteiro|Real|Texto|Logico|Lógico|Lista|Tupla|Matriz|Cubo)\\b'
+        'name': 'storage.type.primitive.scala'
+    }
+    {
+        'name': 'string.quoted.double.potigol'
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.potigol'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.potigol'
+        'patterns': [
+          { 'include': '#interpolation-expression' }
+        ]
+      }
 ]
+'repository':
+  'interpolation-expression' :
+    'patterns': [
+      {
+        'name': 'source.embedded.potigol'
+        'begin': '(\\{)'
+        'patterns': [
+          { 'include': '$self' }
+        ]
+        'end': '(\\})'
+        'captures':
+          '0':
+            'name': 'punctuation.section.embedded.potigol'
+      }
+    ]
