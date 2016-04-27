@@ -1,15 +1,15 @@
 {
-    "name": "language-potigol",
-    "version": "0.0.0",
-    "description": "Potigol language support in Atom",
-    "keywords": [
-        "language",
-        "potigol",
-        "grammar"
-    ],
-    "repository": "https://github.com/potigol/language-potigol",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    }
+  "name": "language-potigol",
+  "version": "0.1.0",
+  "description": "Potigol language support in Atom",
+  "keywords": [
+    "language",
+    "potigol",
+    "grammar"
+  ],
+  "repository": "https://github.com/potigol/language-potigol",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
 }
