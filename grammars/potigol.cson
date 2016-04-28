@@ -17,17 +17,6 @@
         'name': 'support.function.potigol'
     }
     {
-        'begin': '"'
-        'beginCaptures':
-            '0':
-                'name': 'punctuation.definition.string.begin.potigol'
-        'end': '"'
-        'endCaptures':
-            '0':
-                'name': 'punctuation.definition.string.end.potigol'
-        'name': 'string.quoted.double.potigol'
-    }
-    {
         'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((E|e)(\\+|-)?[0-9]+)?\\b'
         'name': 'constant.numeric.potigol'
     }
