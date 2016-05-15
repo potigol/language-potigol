@@ -1,0 +1,37 @@
+'.source.potigol':
+  'caso':
+    'prefix': 'caso'
+    'body': 'caso ${1:_} => ${0}'
+  'tipo':
+    'prefix': 'tipo'
+    'body': 'tipo $1\n\t$0\nfim'
+  'para - Bloco':
+    'prefix': 'para'
+    'body': 'para $1 de ${2:${3:0} até ${4:10}} faça \n\t$0\nfim'
+  'para - Gere':
+    'prefix': 'parag'
+    'body': 'para $1 de ${2:${3:0} até ${4:10}} gere \n\t$0\nfim'
+  'se':
+    'prefix': 'se'
+    'body': 'se $1 então\n\t$2\nfim\n'
+  'senãose':
+    'prefix': 'senaose'
+    'body': 'senãose $1 então\n\t$2\n'
+  'escolha':
+    'prefix': 'escolha'
+    'body': 'escolha $1\n\tcaso ${2:_} => $0\nfim\n'
+  'função':
+    'prefix': 'fun'
+    'body': '${1:nome}${2:(${4:parâmetro}: ${5:Tipo})} \n\t${0}\nfim'
+  'escreva':
+    'prefix': 'es'
+    'body': 'escreva $0'
+  'imprima':
+    'prefix': 'im'
+    'body': 'imprima $0'
+  'leia inteiro':
+    'prefix': 'li'
+    'body': '$1 = leia_inteiro'
+  'leia texto':
+    'prefix': 'lt'
+    'body': '$1 = leia_texto'
