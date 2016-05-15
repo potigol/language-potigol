@@ -9,7 +9,7 @@
         'name': 'comment.line.double-dash.potigol'
     }
     {
-        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|de|até|ate|faça|faca|enquanto|var|passo|gere)\\b'
+        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|de|até|ate|faça|faca|enquanto|var|passo|gere|tipo)\\b'
         'name': 'keyword.control.potigol'
     }
     {
