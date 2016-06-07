@@ -9,11 +9,11 @@
         'name': 'comment.line.double-dash.potigol'
     }
     {
-        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|de|até|ate|faça|faca|enquanto|var|passo|gere|tipo)\\b'
+        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|em|de|até|ate|faça|faca|enquanto|var|passo|gere|tipo)\\b'
         'name': 'keyword.control.potigol'
     }
     {
-        'match': '\\b(leia_texto|leia_numero|leia_inteiro|leia_inteiros|inteiro|arredonde|texto|formato|real|tamanho|posição|posicao|posiçao|posicão|contém|contem|maiúsculo|maiusculo|minúsculo|minusculo|inverta|divida|cabeça|cabeca|cauda|último|ultimo|pegue|descarte|selecione|descarte_enquanto|pegue_enquanto|ordene|junte|remova|insira|imutável|imutavel|mutável|mutavel|mapeie|injete|PI|sen|cos|tg|arcsen|arccos|arctg|abs|raiz|log|log10)\\b'
+        'match': '\\b(leia_texto|leia_numero|leia_inteiro|leia_inteiros|inteiro|arredonde|texto|formato|real|tamanho|posição|posicao|posiçao|posicão|contém|contem|maiúsculo|maiusculo|minúsculo|minusculo|inverta|divida|cabeça|cabeca|primeiro|cauda|último|ultimo|pegue|descarte|selecione|descarte_enquanto|pegue_enquanto|ordene|junte|remova|insira|imutável|imutavel|mutável|mutavel|mapeie|injete|PI|sen|cos|tg|arcsen|arccos|arctg|abs|raiz|log|log10)\\b'
         'name': 'support.function.potigol'
     }
     {
@@ -21,7 +21,7 @@
         'name': 'constant.numeric.potigol'
     }
     {
-        'match': '\\+|\\-|\\*|/|mod|div'
+        'match': '\\+|\\-|\\*|/|mod|div|\\:\\:'
         'name': 'keyword.operator.arithmetic.potigol'
     }
     {
