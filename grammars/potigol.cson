@@ -13,7 +13,7 @@
         'name': 'keyword.control.potigol'
     }
     {
-        'match': '\\b(leia_texto|leia_numero|leia_inteiro|leia_inteiros|inteiro|arredonde|texto|formato|real|tamanho|posição|posicao|posiçao|posicão|contém|contem|maiúsculo|maiusculo|minúsculo|minusculo|inverta|divida|cabeça|cabeca|primeiro|cauda|último|ultimo|pegue|descarte|selecione|descarte_enquanto|pegue_enquanto|ordene|junte|remova|insira|imutável|imutavel|mutável|mutavel|mapeie|injete|PI|sen|cos|tg|arcsen|arccos|arctg|abs|raiz|log|log10)\\b'
+        'match': '\\b(leia_texto|leia_numero|leia_inteiro|leia_inteiros|inteiro|arredonde|texto|formato|real|tamanho|posição|posicao|posiçao|posicão|contém|contem|maiúsculo|maiusculo|minúsculo|minusculo|inverta|divida|cabeça|cabeca|primeiro|cauda|último|ultimo|pegue|descarte|selecione|descarte_enquanto|pegue_enquanto|ordene|junte|remova|insira|imutável|imutavel|mutável|mutavel|mapeie|injete|PI|sen|cos|tg|arcsen|arccos|arctg|abs|raiz|log|log10|segundo|terceiro|quarto|quinto|sexto)\\b'
         'name': 'support.function.potigol'
     }
     {
@@ -37,7 +37,7 @@
         'name': 'keyword.operator.comparison.potigol'
     }
     {
-        'match': '\\b(falso|verdadeiro)\\b'
+        'match': '\\b(falso|verdadeiro|isto)\\b'
         'name': 'constant.language.potigol'
     }
     {

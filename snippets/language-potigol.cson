@@ -32,6 +32,9 @@
   'leia inteiro':
     'prefix': 'li'
     'body': '$1 = leia_inteiro'
+  'leia real':
+    'prefix': 'lr'
+    'body': '$1 = leia_real'
   'leia texto':
     'prefix': 'lt'
     'body': '$1 = leia_texto'
