@@ -9,7 +9,7 @@
         'name': 'comment.line.double-dash.potigol'
     }
     {
-        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|em|de|até|ate|faça|faca|enquanto|var|passo|gere|tipo|retorne)\\b'
+        'match': '\\b(escreva|imprima|se|então|entao|fim|senãose|senaose|senão|senao|escolha|caso|para|em|de|até|ate|faça|faca|enquanto|var|passo|gere|tipo|abstrato|retorne)\\b'
         'name': 'keyword.control.potigol'
     }
     {
@@ -37,7 +37,7 @@
         'name': 'keyword.operator.comparison.potigol'
     }
     {
-        'match': '\\b(falso|verdadeiro|isto)\\b'
+        'match': '\\b(falso|verdadeiro|isto|eof)\\b'
         'name': 'constant.language.potigol'
     }
     {
